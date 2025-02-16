@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHooks.Api", "WebHooks.Api\WebHooks.Api.csproj", "{5BAE374B-82D7-4436-BFB0-54A1570BA4BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspire", "aspire", "{C6BB22E5-4091-46FA-9044-A34A82A505BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHooks.Api.AppHost", "WebHooks.Api.AppHost\WebHooks.Api.AppHost.csproj", "{5372788D-DE59-46E7-A9D4-69C699ACA1DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHooks.Api.ServiceDefaults", "WebHooks.Api.ServiceDefaults\WebHooks.Api.ServiceDefaults.csproj", "{7B29371A-2251-4FCF-B915-0C690930E0AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +21,20 @@ Global
 		{5BAE374B-82D7-4436-BFB0-54A1570BA4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BAE374B-82D7-4436-BFB0-54A1570BA4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BAE374B-82D7-4436-BFB0-54A1570BA4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5372788D-DE59-46E7-A9D4-69C699ACA1DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5372788D-DE59-46E7-A9D4-69C699ACA1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5372788D-DE59-46E7-A9D4-69C699ACA1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5372788D-DE59-46E7-A9D4-69C699ACA1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B29371A-2251-4FCF-B915-0C690930E0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B29371A-2251-4FCF-B915-0C690930E0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B29371A-2251-4FCF-B915-0C690930E0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B29371A-2251-4FCF-B915-0C690930E0AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5372788D-DE59-46E7-A9D4-69C699ACA1DE} = {C6BB22E5-4091-46FA-9044-A34A82A505BC}
+		{7B29371A-2251-4FCF-B915-0C690930E0AB} = {C6BB22E5-4091-46FA-9044-A34A82A505BC}
 	EndGlobalSection
 EndGlobal
